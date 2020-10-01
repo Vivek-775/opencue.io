@@ -7,7 +7,7 @@ BUILD_DIR=opencue-repo
 
 # The Hugo theme (Docsy) is configured as a submodule.
 # Recursively update and initilaize all Git submodules.
-git submodule update --init --recursive
+git sub-module update --init --recursive
 
 if [[ ! -d ${BUILD_DIR} ]]; then
   mkdir ${BUILD_DIR}
